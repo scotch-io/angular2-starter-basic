@@ -7,36 +7,33 @@
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
     "lite": "lite-server",
     "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings",
-    "postinstall": "typings install"
+    "tsc:w": "tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^3.0.0",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.40",
+    "@types/node": "^6.0.55",
+    "concurrently": "^3.1.0",
     "lite-server": "^2.2.2",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "typescript": "^2.1.4"
   },
   "dependencies": {
-    "@angular/common": "~2.1.1",
-    "@angular/compiler": "~2.1.1",
-    "@angular/core": "~2.1.1",
-    
-    "@angular/platform-browser": "~2.1.1",
-    "@angular/platform-browser-dynamic": "~2.1.1",
-
-    "@angular/forms": "~2.1.1",
-    "@angular/http": "~2.1.1",
-    "@angular/router": "~3.1.1",
-    "@angular/upgrade": "~2.1.1",
-
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/forms": "^2.4.1",
+    "@angular/http": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "@angular/router": "^3.4.1",
+    "@angular/upgrade": "^2.4.1",
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "^5.0.2",
     "systemjs": "0.19.39",
-    "zone.js": "^0.6.25"
+    "zone.js": "^0.7.4"
   }
 }
